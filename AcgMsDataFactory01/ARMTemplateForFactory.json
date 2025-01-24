@@ -215,10 +215,11 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "TaxiRides.parquet",
 						"folderPath": "Output",
 						"fileSystem": "taxidata"
 					},
-					"compressionCodec": "snappy"
+					"compressionCodec": "none"
 				},
 				"schema": []
 			},
